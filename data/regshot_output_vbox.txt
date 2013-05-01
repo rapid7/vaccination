@@ -1,0 +1,150 @@
+Regshot 1.9.0 x86 Unicode
+Comments: 
+Datetime: 2013/3/24 02:11:46  ,  2013/3/24 02:13:41
+Computer: VBTEST-AA2A1EDE , VBTEST-AA2A1EDE
+Username: a , a
+
+----------------------------------
+Values added: 381
+----------------------------------
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\VBoxTray: "C:\WINDOWS\system32\VBoxTray.exe"
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Oracle VM VirtualBox Guest Additions\DisplayName: "Oracle VM VirtualBox Guest Additions 4.2.10"
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Oracle VM VirtualBox Guest Additions\UninstallString: "C:\Program Files\Oracle\VirtualBox Guest Additions\uninst.exe"
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Oracle VM VirtualBox Guest Additions\DisplayVersion: "4.2.10.0"
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Oracle VM VirtualBox Guest Additions\URLInfoAbout: "http://www.virtualbox.org"
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Oracle VM VirtualBox Guest Additions\Publisher: "Oracle Corporation"
+HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\OpenGLDrivers\VBoxOGL\Version: 0x00000002
+HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\OpenGLDrivers\VBoxOGL\DriverVersion: 0x00000001
+HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\OpenGLDrivers\VBoxOGL\Flags: 0x00000001
+HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\OpenGLDrivers\VBoxOGL\Dll: "VBoxOGL.dll"
+HKLM\SOFTWARE\Oracle\Sun Ray\ClientInfoAgent\DisconnectActions\: ""
+HKLM\SOFTWARE\Oracle\Sun Ray\ClientInfoAgent\ReconnectActions\: ""
+HKLM\SOFTWARE\Oracle\VirtualBox Guest Additions\Version: "4.2.10"
+HKLM\SOFTWARE\Oracle\VirtualBox Guest Additions\VersionExt: "4.2.10"
+HKLM\SOFTWARE\Oracle\VirtualBox Guest Additions\Revision: "84104"
+HKLM\SOFTWARE\Oracle\VirtualBox Guest Additions\InstallDir: "C:\Program Files\Oracle\VirtualBox Guest Additions"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\InfPath: "oem1.inf"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\InfSection: "VBoxVideo"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\ProviderName: "Oracle Corporation"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDateData:  00 40 32 61 34 19 CE 01
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDate: "3-5-2013"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverVersion: "4.2.10.0"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\MatchingDeviceId: "pci\ven_80ee&dev_beef"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDesc: "VirtualBox Graphics Adapter"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\InstalledDisplayDrivers:  56 00 42 00 6F 00 78 00 44 00 69 00 73 00 70 00 00 00 00 00
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\Acceleration.Level: 0x00000000
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\VgaCompatible: 0x00000000
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\Device Description: "VirtualBox Graphics Adapter"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\InfPath: "monitor.inf"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\InfSection: "Unknown.Install"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\ProviderName: "Microsoft"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\DriverDateData:  00 C0 0E A1 1B EE C0 01
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\DriverDate: "6-6-2001"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\DriverVersion: "5.1.2001.0"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\MatchingDeviceId: "monitor\default_monitor"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\DriverDesc: "Default Monitor"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\MODES\640,480\: ""
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\InfPath: "oem0.inf"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\InfSection: "VBoxGuest_Install"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\ProviderName: "Oracle Corporation"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\DriverDateData:  00 40 32 61 34 19 CE 01
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\DriverDate: "3-5-2013"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\DriverVersion: "4.2.10.0"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\MatchingDeviceId: "pci\ven_80ee&dev_cafe"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\DriverDesc: "VirtualBox Device"
+HKLM\SYSTEM\ControlSet001\Control\CriticalDeviceDatabase\pci#ven_80ee&dev_cafe\Service: "VBoxGuest"
+HKLM\SYSTEM\ControlSet001\Control\CriticalDeviceDatabase\pci#ven_80ee&dev_cafe\ClassGUID: "{4D36E97D-E325-11CE-BFC1-08002BE10318}"
+HKLM\SYSTEM\ControlSet001\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\InstalledDisplayDrivers:  56 00 42 00 6F 00 78 00 44 00 69 00 73 00 70 00 00 00 00 00
+HKLM\SYSTEM\ControlSet001\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\Acceleration.Level: 0x00000000
+HKLM\SYSTEM\ControlSet001\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\VgaCompatible: 0x00000000
+HKLM\SYSTEM\ControlSet001\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\Device Description: "VirtualBox Graphics Adapter"
+HKLM\SYSTEM\ControlSet001\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\HardwareInformation.ChipType:  56 00 42 00 4F 00 58 00 00 00
+HKLM\SYSTEM\ControlSet001\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\HardwareInformation.DacType:  49 00 6E 00 74 00 65 00 67 00 72 00 61 00 74 00 65 00 64 00 20 00 52 00 41 00 4D 00 44 00 41 00 43 00 00 00
+HKLM\SYSTEM\ControlSet001\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\HardwareInformation.MemorySize:  00 00 00 01
+HKLM\SYSTEM\ControlSet001\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\HardwareInformation.AdapterString:  56 00 69 00 72 00 74 00 75 00 61 00 6C 00 42 00 6F 00 78 00 20 00 56 00 69 00 64 00 65 00 6F 00 20 00 41 00 64 00 61 00 70 00 74 00 65 00 72 00 00 00
+HKLM\SYSTEM\ControlSet001\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\HardwareInformation.BiosString:  56 00 65 00 72 00 73 00 69 00 6F 00 6E 00 20 00 30 00 78 00 42 00 30 00 43 00 32 00 20 00 6F 00 72 00 20 00 6C 00 61 00 74 00 65 00 72 00 00 00
+HKLM\SYSTEM\ControlSet001\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\VolatileSettings\{5b45201d-f2f2-4f3b-85bb-30ff1f953599}:  5C 00 3F 00 3F 00 5C 00 50 00 43 00 49 00 23 00 56 00 45 00 4E 00 5F 00 38 00 30 00 45 00 45 00 26 00 44 00 45 00 56 00 5F 00 42 00 45 00 45 00 46 00 26 00 53 00 55 00 42 00 53 00 59 00 53 00 5F 00 30 00 30 00 30 00 30 00 30 00 30 00 30 00 30 00 26 00 52 00 45 00 56 00 5F 00 30 00 30 00 23 00 33 00 26 00 32 00 36 00 37 00 61 00 36 00 31 00 36 00 61 00 26 00 30 00 26 00 31 00 30 00 23 00 7B 00 35 00 62 00 34 00 35 00 32 00 30 00 31 00 64 00 2D 00 66 00 32 00 66 00 32 00 2D 00 34 00 66 00 33 00 62 00 2D 00 38 00 35 00 62 00 62 00 2D 00 33 00 30 00 66 00 66 00 31 00 66 00 39 00 35 00 33 00 35 00 39 00 39 00 7D 00
+HKLM\SYSTEM\ControlSet001\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\Video\Service: "VBoxVideo"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\InfPath: "oem1.inf"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\InfSection: "VBoxVideo"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\ProviderName: "Oracle Corporation"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDateData:  00 40 32 61 34 19 CE 01
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDate: "3-5-2013"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverVersion: "4.2.10.0"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\MatchingDeviceId: "pci\ven_80ee&dev_beef"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDesc: "VirtualBox Graphics Adapter"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\InstalledDisplayDrivers:  56 00 42 00 6F 00 78 00 44 00 69 00 73 00 70 00 00 00 00 00
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\Acceleration.Level: 0x00000000
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\VgaCompatible: 0x00000000
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\Device Description: "VirtualBox Graphics Adapter"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\InfPath: "monitor.inf"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\InfSection: "Unknown.Install"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\ProviderName: "Microsoft"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\DriverDateData:  00 C0 0E A1 1B EE C0 01
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\DriverDate: "6-6-2001"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\DriverVersion: "5.1.2001.0"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\MatchingDeviceId: "monitor\default_monitor"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\DriverDesc: "Default Monitor"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\MODES\640,480\: ""
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\InfPath: "oem0.inf"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\InfSection: "VBoxGuest_Install"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\ProviderName: "Oracle Corporation"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\DriverDateData:  00 40 32 61 34 19 CE 01
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\DriverDate: "3-5-2013"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\DriverVersion: "4.2.10.0"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\MatchingDeviceId: "pci\ven_80ee&dev_cafe"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\DriverDesc: "VirtualBox Device"
+HKLM\SYSTEM\CurrentControlSet\Control\CriticalDeviceDatabase\pci#ven_80ee&dev_cafe\Service: "VBoxGuest"
+HKLM\SYSTEM\CurrentControlSet\Control\CriticalDeviceDatabase\pci#ven_80ee&dev_cafe\ClassGUID: "{4D36E97D-E325-11CE-BFC1-08002BE10318}"
+HKLM\SYSTEM\CurrentControlSet\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\InstalledDisplayDrivers:  56 00 42 00 6F 00 78 00 44 00 69 00 73 00 70 00 00 00 00 00
+HKLM\SYSTEM\CurrentControlSet\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\Acceleration.Level: 0x00000000
+HKLM\SYSTEM\CurrentControlSet\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\VgaCompatible: 0x00000000
+HKLM\SYSTEM\CurrentControlSet\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\Device Description: "VirtualBox Graphics Adapter"
+HKLM\SYSTEM\CurrentControlSet\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\HardwareInformation.ChipType:  56 00 42 00 4F 00 58 00 00 00
+HKLM\SYSTEM\CurrentControlSet\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\HardwareInformation.DacType:  49 00 6E 00 74 00 65 00 67 00 72 00 61 00 74 00 65 00 64 00 20 00 52 00 41 00 4D 00 44 00 41 00 43 00 00 00
+HKLM\SYSTEM\CurrentControlSet\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\HardwareInformation.MemorySize:  00 00 00 01
+HKLM\SYSTEM\CurrentControlSet\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\HardwareInformation.AdapterString:  56 00 69 00 72 00 74 00 75 00 61 00 6C 00 42 00 6F 00 78 00 20 00 56 00 69 00 64 00 65 00 6F 00 20 00 41 00 64 00 61 00 70 00 74 00 65 00 72 00 00 00
+HKLM\SYSTEM\CurrentControlSet\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\HardwareInformation.BiosString:  56 00 65 00 72 00 73 00 69 00 6F 00 6E 00 20 00 30 00 78 00 42 00 30 00 43 00 32 00 20 00 6F 00 72 00 20 00 6C 00 61 00 74 00 65 00 72 00 00 00
+HKLM\SYSTEM\CurrentControlSet\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\0000\VolatileSettings\{5b45201d-f2f2-4f3b-85bb-30ff1f953599}:  5C 00 3F 00 3F 00 5C 00 50 00 43 00 49 00 23 00 56 00 45 00 4E 00 5F 00 38 00 30 00 45 00 45 00 26 00 44 00 45 00 56 00 5F 00 42 00 45 00 45 00 46 00 26 00 53 00 55 00 42 00 53 00 59 00 53 00 5F 00 30 00 30 00 30 00 30 00 30 00 30 00 30 00 30 00 26 00 52 00 45 00 56 00 5F 00 30 00 30 00 23 00 33 00 26 00 32 00 36 00 37 00 61 00 36 00 31 00 36 00 61 00 26 00 30 00 26 00 31 00 30 00 23 00 7B 00 35 00 62 00 34 00 35 00 32 00 30 00 31 00 64 00 2D 00 66 00 32 00 66 00 32 00 2D 00 34 00 66 00 33 00 62 00 2D 00 38 00 35 00 62 00 62 00 2D 00 33 00 30 00 66 00 66 00 31 00 66 00 39 00 35 00 33 00 35 00 39 00 39 00 7D 00
+HKLM\SYSTEM\CurrentControlSet\Control\Video\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\Video\Service: "VBoxVideo"
+
+----------------------------------
+Files added: 81
+----------------------------------
+C:\Program Files\Oracle\VirtualBox Guest Additions\DIFxAPI.dll
+C:\Program Files\Oracle\VirtualBox Guest Additions\iexplore.ico
+C:\Program Files\Oracle\VirtualBox Guest Additions\install_drivers.log
+C:\Program Files\Oracle\VirtualBox Guest Additions\Oracle VM VirtualBox Guest Additions.url
+C:\Program Files\Oracle\VirtualBox Guest Additions\uninst.exe
+C:\Program Files\Oracle\VirtualBox Guest Additions\VBoxControl.exe
+C:\Program Files\Oracle\VirtualBox Guest Additions\VBoxDisp.dll
+C:\Program Files\Oracle\VirtualBox Guest Additions\VBoxDrvInst.exe
+C:\Program Files\Oracle\VirtualBox Guest Additions\VBoxGuest.cat
+C:\Program Files\Oracle\VirtualBox Guest Additions\VBoxGuest.inf
+C:\Program Files\Oracle\VirtualBox Guest Additions\VBoxGuest.sys
+C:\Program Files\Oracle\VirtualBox Guest Additions\VBoxMouse.cat
+C:\Program Files\Oracle\VirtualBox Guest Additions\VBoxMouse.inf
+C:\Program Files\Oracle\VirtualBox Guest Additions\VBoxMouse.sys
+C:\Program Files\Oracle\VirtualBox Guest Additions\VBoxTray.exe
+C:\Program Files\Oracle\VirtualBox Guest Additions\VBoxVideo.cat
+C:\Program Files\Oracle\VirtualBox Guest Additions\VBoxVideo.inf
+C:\Program Files\Oracle\VirtualBox Guest Additions\VBoxVideo.sys
+C:\Program Files\Oracle\VirtualBox Guest Additions\VBoxWHQLFake.exe
+C:\WINDOWS\system32\drivers\VBoxGuest.sys
+C:\WINDOWS\system32\drivers\VBoxMouse.sys
+C:\WINDOWS\system32\drivers\VBoxSF.sys
+C:\WINDOWS\system32\drivers\VBoxVideo.sys
+C:\WINDOWS\system32\VBoxControl.exe
+C:\WINDOWS\system32\VBoxDisp.dll
+C:\WINDOWS\system32\VBoxHook.dll
+C:\WINDOWS\system32\VBoxMRXNP.dll
+C:\WINDOWS\system32\VBoxOGL.dll
+C:\WINDOWS\system32\VBoxOGLarrayspu.dll
+C:\WINDOWS\system32\VBoxOGLcrutil.dll
+C:\WINDOWS\system32\VBoxOGLerrorspu.dll
+C:\WINDOWS\system32\VBoxOGLfeedbackspu.dll
+C:\WINDOWS\system32\VBoxOGLpackspu.dll
+C:\WINDOWS\system32\VBoxOGLpassthroughspu.dll
+C:\WINDOWS\system32\VBoxService.exe
+C:\WINDOWS\system32\VBoxTray.exe
+
