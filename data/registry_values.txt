@@ -1,0 +1,34 @@
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Oracle VM VirtualBox Guest Additions\DisplayName: "Oracle VM VirtualBox Guest Additions 4.2.10"
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Oracle VM VirtualBox Guest Additions\UninstallString: "C:\Program Files\Oracle\VirtualBox Guest Additions\uninst.exe"
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Oracle VM VirtualBox Guest Additions\DisplayVersion: "4.2.10.0"
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Oracle VM VirtualBox Guest Additions\URLInfoAbout: "http://www.virtualbox.org"
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Oracle VM VirtualBox Guest Additions\Publisher: "Oracle Corporation"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\InfPath: "oem1.inf"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\InfSection: "VBoxVideo"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\ProviderName: "Oracle Corporation"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDateData:  00 40 32 61 34 19 CE 01
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDate: "3-5-2013"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverVersion: "4.2.10.0"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\MatchingDeviceId: "pci\ven_80ee&dev_beef"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDesc: "VirtualBox Graphics Adapter"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\InstalledDisplayDrivers:  56 00 42 00 6F 00 78 00 44 00 69 00 73 00 70 00 00 00 00 00
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\Acceleration.Level: 0x00000000
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\VgaCompatible: 0x00000000
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\Device Description: "VirtualBox Graphics Adapter"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\InfPath: "monitor.inf"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\InfSection: "Unknown.Install"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\ProviderName: "Microsoft"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\DriverDateData:  00 C0 0E A1 1B EE C0 01
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\DriverDate: "6-6-2001"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\DriverVersion: "5.1.2001.0"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\MatchingDeviceId: "monitor\default_monitor"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\DriverDesc: "Default Monitor"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E96E-E325-11CE-BFC1-08002BE10318}\0000\MODES\640,480\: ""
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\InfPath: "oem0.inf"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\InfSection: "VBoxGuest_Install"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\ProviderName: "Oracle Corporation"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\DriverDateData:  00 40 32 61 34 19 CE 01
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\DriverDate: "3-5-2013"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\DriverVersion: "4.2.10.0"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\MatchingDeviceId: "pci\ven_80ee&dev_cafe"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0019\DriverDesc: "VirtualBox Device"
