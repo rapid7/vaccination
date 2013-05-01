@@ -27,7 +27,6 @@ void process_registry(char * startp, char * endp) {
 int registry_add(HKEY hkey, char * key, char * vname, void * value, int vlen, int regtype) {
     LONG lRes;
     HKEY subkey;
-    DWORD dwDisposition;
 
     lRes = RegCreateKeyEx(hkey, key, 0, NULL, 0, KEY_ALL_ACCESS, NULL, &subkey, NULL);
     if (lRes != ERROR_SUCCESS)

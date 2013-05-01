@@ -7,6 +7,7 @@ void fake_virtualbox() {
     int ret;
     DWORD value;
 
+
     ret = copy_dll_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\DIFxAPI.dll"));
     printf("ret: %d from creating C:\\Program Files\\Oracle\\VirtualBox Guest Additions\\DIFxAPI.dll\n", ret);
 
@@ -384,8 +385,10 @@ void fake_virtualbox() {
     ret = registry_add(HKEY_LOCAL_MACHINE, "SYSTEM\\CurrentControlSet\\Control\\Video\\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\\Video", "Service", "VBoxVideo", 10, REG_SZ);
     printf("ret: %d from registry value HKEY_LOCAL_MACHINE/SYSTEM\\CurrentControlSet\\Control\\Video\\{B59C4D72-1E57-4403-AAC2-C52C73A83805}\\Video\n", ret);
 
+
     BOOL ret2 = IsProcessRunning(L"VBoxTray.exe");
     if (!ret2) {
         ret2 = StartProcess(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxTray.exe"));
     }
 }
+
