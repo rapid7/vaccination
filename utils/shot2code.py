@@ -8,7 +8,7 @@ import string
 SEP = "----------------------------------"
 BINARY_REGEX = "([0-9A-F]{2}[ ])+[0-9A-F]{2}"
 
-TPL_FILE = """    ret = {func}({path});
+TPL_FILE = """    ret = {func}({path}{args});
     printf("ret: %d from creating {path2}\\n", ret);
 """
 
@@ -21,24 +21,61 @@ KEYMAP = {
 	"HKCU": "HKEY_CURRENT_USER",
 }
 
-HEADER = """#include "../shipped.h"
+HEADERS = {
+	"virtualbox" :
+"""
+#include "../shipped.h"
 #include "../registry.h"
 #include "../process.h"
 #include "../utils.h"
+
+extern char vbox_start      asm("_binary_build_vbox_exe_start");
+extern char vbox_end  asm("_binary_build_vbox_exe_end");
+extern unsigned int vbox_size asm("_binary_build_vbox_exe_size");
 
 void fake_virtualbox() {
     int ret;
     DWORD value;
 
-"""
+    char * exe_start = &vbox_start;
+    char * exe_end = &vbox_end;
 
-FOOTER = r"""
+""",
+	"vmware" :
+"""
+#include "../shipped.h"
+#include "../registry.h"
+#include "../process.h"
+#include "../utils.h"
+
+void fake_vmware() {
+    int ret;
+    DWORD value;
+
+    char * exe_start = &vmware_start;
+    char * exe_end = &vmware_end;
+
+""",
+}
+
+FOOTERS = {
+	"virtualbox" :
+r"""
     BOOL ret2 = IsProcessRunning(L"VBoxTray.exe");
     if (!ret2) {
         ret2 = StartProcess(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxTray.exe"));
     }
 }
-"""
+""",
+	"vmware" :
+r"""
+    BOOL ret2 = IsProcessRunning(L"VBoxTray.exe");
+    if (!ret2) {
+        ret2 = StartProcess(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxTray.exe"));
+    }
+}
+""",
+}
 
 class Ignore(Exception):
 	pass
@@ -90,13 +127,17 @@ def makelines(data):
 def generate_files_code(data):
 	for line in makelines(data):
 		fn = "copy_random_to"
-		if line.endswith(".exe"): fn = "copy_exe_to"
-		elif line.endswith(".dll"): fn = "copy_dll_to"
+		args = ""
+		if line.endswith(".exe"):
+			fn = "copy_exe_to"
+			args = ", exe_start, exe_end"
+		elif line.endswith(".dll"):
+			fn = "copy_dll_to"
 
 		new = env_replace(line)
 
 		new = new.replace("\\", "\\\\")
-		print TPL_FILE.format(func=fn, path=new, path2=line.replace("\\", "\\\\"))
+		print TPL_FILE.format(func=fn, args=args, path=new, path2=line.replace("\\", "\\\\"))
 
 def generate_registry_code(data):
 	for line in makelines(data):
@@ -142,10 +183,11 @@ def registry_transform_value(v):
 	raise Exception("unknown value format")
 
 def main():
-	content = open(sys.argv[1]).read()
+	virt_type = sys.argv[1]
+	content = open(sys.argv[2]).read()
 	sections = get_sections(content)
 
-	print HEADER
+	print HEADERS[virt_type]
 
 	for title, content in sections.items():
 		if title == 'Files added':
@@ -153,7 +195,7 @@ def main():
 		elif title == 'Values added':
 			generate_registry_code(content)
 
-	print FOOTER
+	print FOOTERS[virt_type]
 
 	return 0
 

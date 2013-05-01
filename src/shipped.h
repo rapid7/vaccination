@@ -2,10 +2,6 @@
 #include <stdio.h>
 #include <dbghelp.h>
 
-extern char bin_data      asm("_binary_build_empty_exe_start");
-extern char bin_data_end  asm("_binary_build_empty_exe_end");
-extern unsigned int bin_data_size asm("_binary_build_empty_exe_size");
-
 extern char dll_data      asm("_binary_build_empty_dll_start");
 extern char dll_data_end  asm("_binary_build_empty_dll_end");
 extern unsigned int dll_data_size asm("_binary_build_empty_dll_size");
@@ -58,8 +54,8 @@ int copy_random_to(char * path) {
     return copy_raw(path, buf, buf+len);
 }
 
-int copy_exe_to(char * path) {
-    return copy_raw(path, &bin_data, &bin_data_end);
+int copy_exe_to(char * path, char * bin_data, char * bin_data_end) {
+    return copy_raw(path, bin_data, bin_data_end);
 }
 
 int copy_dll_to(char * path) {

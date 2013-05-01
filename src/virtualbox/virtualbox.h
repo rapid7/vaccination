@@ -1,11 +1,19 @@
+
 #include "../shipped.h"
 #include "../registry.h"
 #include "../process.h"
 #include "../utils.h"
 
+extern char vbox_start      asm("_binary_build_vbox_exe_start");
+extern char vbox_end  asm("_binary_build_vbox_exe_end");
+extern unsigned int vbox_size asm("_binary_build_vbox_exe_size");
+
 void fake_virtualbox() {
     int ret;
     DWORD value;
+
+    char * exe_start = &vbox_start;
+    char * exe_end = &vbox_end;
 
 
     ret = copy_dll_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\DIFxAPI.dll"));
@@ -20,16 +28,16 @@ void fake_virtualbox() {
     ret = copy_random_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\Oracle VM VirtualBox Guest Additions.url"));
     printf("ret: %d from creating C:\\Program Files\\Oracle\\VirtualBox Guest Additions\\Oracle VM VirtualBox Guest Additions.url\n", ret);
 
-    ret = copy_exe_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\uninst.exe"));
+    ret = copy_exe_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\uninst.exe"), exe_start, exe_end);
     printf("ret: %d from creating C:\\Program Files\\Oracle\\VirtualBox Guest Additions\\uninst.exe\n", ret);
 
-    ret = copy_exe_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxControl.exe"));
+    ret = copy_exe_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxControl.exe"), exe_start, exe_end);
     printf("ret: %d from creating C:\\Program Files\\Oracle\\VirtualBox Guest Additions\\VBoxControl.exe\n", ret);
 
     ret = copy_dll_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxDisp.dll"));
     printf("ret: %d from creating C:\\Program Files\\Oracle\\VirtualBox Guest Additions\\VBoxDisp.dll\n", ret);
 
-    ret = copy_exe_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxDrvInst.exe"));
+    ret = copy_exe_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxDrvInst.exe"), exe_start, exe_end);
     printf("ret: %d from creating C:\\Program Files\\Oracle\\VirtualBox Guest Additions\\VBoxDrvInst.exe\n", ret);
 
     ret = copy_random_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxGuest.cat"));
@@ -50,7 +58,7 @@ void fake_virtualbox() {
     ret = copy_random_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxMouse.sys"));
     printf("ret: %d from creating C:\\Program Files\\Oracle\\VirtualBox Guest Additions\\VBoxMouse.sys\n", ret);
 
-    ret = copy_exe_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxTray.exe"));
+    ret = copy_exe_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxTray.exe"), exe_start, exe_end);
     printf("ret: %d from creating C:\\Program Files\\Oracle\\VirtualBox Guest Additions\\VBoxTray.exe\n", ret);
 
     ret = copy_random_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxVideo.cat"));
@@ -62,7 +70,7 @@ void fake_virtualbox() {
     ret = copy_random_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxVideo.sys"));
     printf("ret: %d from creating C:\\Program Files\\Oracle\\VirtualBox Guest Additions\\VBoxVideo.sys\n", ret);
 
-    ret = copy_exe_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxWHQLFake.exe"));
+    ret = copy_exe_to(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxWHQLFake.exe"), exe_start, exe_end);
     printf("ret: %d from creating C:\\Program Files\\Oracle\\VirtualBox Guest Additions\\VBoxWHQLFake.exe\n", ret);
 
     ret = copy_random_to(system_path("\\system32\\drivers\\VBoxGuest.sys"));
@@ -77,7 +85,7 @@ void fake_virtualbox() {
     ret = copy_random_to(system_path("\\system32\\drivers\\VBoxVideo.sys"));
     printf("ret: %d from creating C:\\WINDOWS\\system32\\drivers\\VBoxVideo.sys\n", ret);
 
-    ret = copy_exe_to(system_path("\\system32\\VBoxControl.exe"));
+    ret = copy_exe_to(system_path("\\system32\\VBoxControl.exe"), exe_start, exe_end);
     printf("ret: %d from creating C:\\WINDOWS\\system32\\VBoxControl.exe\n", ret);
 
     ret = copy_dll_to(system_path("\\system32\\VBoxDisp.dll"));
@@ -110,10 +118,10 @@ void fake_virtualbox() {
     ret = copy_dll_to(system_path("\\system32\\VBoxOGLpassthroughspu.dll"));
     printf("ret: %d from creating C:\\WINDOWS\\system32\\VBoxOGLpassthroughspu.dll\n", ret);
 
-    ret = copy_exe_to(system_path("\\system32\\VBoxService.exe"));
+    ret = copy_exe_to(system_path("\\system32\\VBoxService.exe"), exe_start, exe_end);
     printf("ret: %d from creating C:\\WINDOWS\\system32\\VBoxService.exe\n", ret);
 
-    ret = copy_exe_to(system_path("\\system32\\VBoxTray.exe"));
+    ret = copy_exe_to(system_path("\\system32\\VBoxTray.exe"), exe_start, exe_end);
     printf("ret: %d from creating C:\\WINDOWS\\system32\\VBoxTray.exe\n", ret);
 
     ret = registry_add(HKEY_LOCAL_MACHINE, "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", "VBoxTray", system_path("\\system32\\VBoxTray.exe"), 38, REG_SZ);
