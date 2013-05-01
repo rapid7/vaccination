@@ -21,6 +21,25 @@ KEYMAP = {
 	"HKCU": "HKEY_CURRENT_USER",
 }
 
+HEADER = """#include "../shipped.h"
+#include "../registry.h"
+#include "../process.h"
+#include "../utils.h"
+
+void fake_virtualbox() {
+    int ret;
+    DWORD value;
+
+"""
+
+FOOTER = r"""
+    BOOL ret2 = IsProcessRunning(L"VBoxTray.exe");
+    if (!ret2) {
+        ret2 = StartProcess(progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxTray.exe"));
+    }
+}
+"""
+
 class Ignore(Exception):
 	pass
 
@@ -126,11 +145,15 @@ def main():
 	content = open(sys.argv[1]).read()
 	sections = get_sections(content)
 
+	print HEADER
+
 	for title, content in sections.items():
 		if title == 'Files added':
 			generate_files_code(content)
 		elif title == 'Values added':
 			generate_registry_code(content)
+
+	print FOOTER
 
 	return 0
 
