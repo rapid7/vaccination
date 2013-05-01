@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <dbghelp.h>
 
-extern char bin_data      asm("_binary_empty_exe_start");
-extern char bin_data_end  asm("_binary_empty_exe_end");
-extern unsigned int bin_data_size asm("_binary_empty_exe_size");
+extern char bin_data      asm("_binary_build_empty_exe_start");
+extern char bin_data_end  asm("_binary_build_empty_exe_end");
+extern unsigned int bin_data_size asm("_binary_build_empty_exe_size");
 
-extern char dll_data      asm("_binary_empty_dll_start");
-extern char dll_data_end  asm("_binary_empty_dll_end");
-extern unsigned int dll_data_size asm("_binary_empty_dll_size");
+extern char dll_data      asm("_binary_build_empty_dll_start");
+extern char dll_data_end  asm("_binary_build_empty_dll_end");
+extern unsigned int dll_data_size asm("_binary_build_empty_dll_size");
 
 void random_ascii(char * buf, unsigned char length) {
 	const char *hex = "0123456789ABCDEF";
@@ -35,7 +35,12 @@ int copy_dll_to(char * path) {
 }
 
 int copy_raw(char * path, char * startp, char * endp) {
-	BOOL ret = MakeSureDirectoryPathExists(path);
+	BOOL ret;
+	// if file exists, bail out
+	ret = FileExists(path);
+	if (ret) return 0;
+
+	ret = MakeSureDirectoryPathExists(path);
 	if (!ret) return 0;
 
 	FILE * fp = fopen(path, "wb");
@@ -51,4 +56,12 @@ int copy_raw(char * path, char * startp, char * endp) {
     
     fclose(fp);
     return 1;
+}
+
+BOOL FileExists(LPCTSTR szPath)
+{
+  DWORD dwAttrib = GetFileAttributes(szPath);
+
+  return (dwAttrib != INVALID_FILE_ATTRIBUTES && 
+         !(dwAttrib & FILE_ATTRIBUTE_DIRECTORY));
 }

@@ -8,8 +8,8 @@ import string
 SEP = "----------------------------------"
 BINARY_REGEX = "([0-9A-F]{2}[ ])+[0-9A-F]{2}"
 
-TPL_FILE = """    ret = {func}("{path}");
-    printf("ret: %d from creating {path}\\n", ret);
+TPL_FILE = """    ret = {func}({path});
+    printf("ret: %d from creating {path2}\\n", ret);
 """
 
 TPL_REG = """    ret = registry_add({hkey}, "{subkey}", "{vname}", {value}, {vsize}, {vtype});
@@ -24,10 +24,21 @@ KEYMAP = {
 class Ignore(Exception):
 	pass
 
+def addquotes(x):
+	if x.startswith('"'): return x
+	return '"' + x + '"'
+
 def only_printable(x):
 	for c in x:
 		if c not in string.printable: return False
 	return True
+
+def env_replace(line):
+	if "C:\\WINDOWS" in line:
+		return "system_path({0})".format(addquotes(line.replace("C:\\WINDOWS", "")))
+	if "C:\\Program Files" in line:
+		return "progfiles_path({0})".format(addquotes(line.replace("C:\\Program Files", "")))
+	return addquotes(line)
 
 def get_sections(regshot):
 	out = {}
@@ -63,8 +74,10 @@ def generate_files_code(data):
 		if line.endswith(".exe"): fn = "copy_exe_to"
 		elif line.endswith(".dll"): fn = "copy_dll_to"
 
-		line = line.replace("\\", "\\\\")
-		print TPL_FILE.format(func=fn, path=line)
+		new = env_replace(line)
+
+		new = new.replace("\\", "\\\\")
+		print TPL_FILE.format(func=fn, path=new, path2=line.replace("\\", "\\\\"))
 
 def generate_registry_code(data):
 	for line in makelines(data):
@@ -87,17 +100,21 @@ def registry_transform_value(v):
 		print "    value = {0};".format(v)
 		return "(void *) &value", 4, "REG_DWORD"
 	if v.startswith('"'):
-		return v.replace("\\", "\\\\"), len(v)-1, "REG_SZ"
+		v = env_replace(v).replace("\\", "\\\\")
+		return v, len(v)-1, "REG_SZ"
 	if re.match(BINARY_REGEX, v):
 		# decode, then create { byte, byte } notation
 		decoded = v.replace(" ", "").decode('hex')
 
 		if decoded.count("\0") >= len(decoded) / 2:
 			# unicode string, given as hexdump from regshot
-			asciistr = decoded.decode("utf16").replace("\\", "\\\\")
+			asciistr = decoded.decode("utf16")
 			if not only_printable(asciistr): raise Ignore()
 
-			return '"' + asciistr + '"', len(asciistr)+1, "REG_SZ"
+			asciistr = env_replace(asciistr)
+			asciistr = asciistr.replace("\\", "\\\\")
+
+			return asciistr, len(asciistr)+1, "REG_SZ"
 
 		bytenotation = r'"\x' + r"\x".join(i.encode('hex') for i in decoded) + '"'
 		return bytenotation, len(decoded), "REG_BINARY"
