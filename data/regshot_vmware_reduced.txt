@@ -1,0 +1,487 @@
+Regshot 1.9.0 x86 ANSI
+Comments: 
+Datetime: 2013/5/2 11:40:03  ,  2013/5/2 11:42:27
+Computer: TESTER-5AC24B8D , TESTER-5AC24B8D
+Username: test2 , test2
+
+----------------------------------
+Values added: 2555
+----------------------------------
+HKLM\SOFTWARE\Classes\AppID\{2c6594dd-04ad-490f-a447-dc8e2772e9cb}\: "TPVCGateway WMI Provider"
+HKLM\SOFTWARE\Classes\AppID\{2c6594dd-04ad-490f-a447-dc8e2772e9cb}\LocalService: "TPVCGateway"
+HKLM\SOFTWARE\Classes\AppID\{2c6594dd-04ad-490f-a447-dc8e2772e9cb}\ServiceParameters: "-install"
+HKLM\SOFTWARE\Classes\Applications\VMwareHostOpen.exe\shell\open\command\: ""C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe" --file "%1""
+HKLM\SOFTWARE\Classes\CLSID\{2C6594DB-04AD-490F-A447-DC8E2772E9CB}\: ""
+HKLM\SOFTWARE\Classes\CLSID\{2C6594DB-04AD-490F-A447-DC8E2772E9CB}\InprocServer32\: "C:\WINDOWS\system32\TPSvc.dll"
+HKLM\SOFTWARE\Classes\CLSID\{2C6594DB-04AD-490F-A447-DC8E2772E9CB}\InprocServer32\ThreadingModel: "Apartment"
+HKLM\SOFTWARE\Classes\CLSID\{2c6594dc-04ad-490f-a447-dc8e2772e9cb}\: "TPVCGateway WMI Provider"
+HKLM\SOFTWARE\Classes\CLSID\{2c6594dc-04ad-490f-a447-dc8e2772e9cb}\AppID: "{2c6594dd-04ad-490f-a447-dc8e2772e9cb}"
+HKLM\SOFTWARE\Classes\CLSID\{2c6594dc-04ad-490f-a447-dc8e2772e9cb}\LocalServer32\: "C:\Program Files\VMware\VMware Tools\TPVCGateway.exe"
+HKLM\SOFTWARE\Classes\CLSID\{8D3967E5-6AAC-11D7-908B-0003476A1D2A}\: "TPAutoConnect Class"
+HKLM\SOFTWARE\Classes\CLSID\{8D3967E5-6AAC-11D7-908B-0003476A1D2A}\InprocServer32\: "C:\WINDOWS\system32\TPSvc.dll"
+HKLM\SOFTWARE\Classes\CLSID\{8D3967E5-6AAC-11D7-908B-0003476A1D2A}\InprocServer32\ThreadingModel: "Apartment"
+HKLM\SOFTWARE\Classes\CLSID\{8D3967E5-6AAC-11D7-908B-0003476A1D2A}\ProgID\: "TPAutoConnDll.TPAutoConnect.1"
+HKLM\SOFTWARE\Classes\CLSID\{8D3967E5-6AAC-11D7-908B-0003476A1D2A}\TypeLib\: "{56CA9E11-6AAA-11D7-908B-0003476A1D2A}"
+HKLM\SOFTWARE\Classes\CLSID\{8D3967E5-6AAC-11D7-908B-0003476A1D2A}\VersionIndependentProgID\: "TPAutoConnDll.TPAutoConnect"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\Drivers: ""
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\Common: ""
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\microsoft_dlls_x86: "Common"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\Toolbox: ""
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\Unity: "Toolbox"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\SVGA: "Drivers"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\Plugins: "Toolbox"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\MouseUsb: "Drivers"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\Mouse: "Drivers"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\MemCtl: "Drivers"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\VMCI: "Drivers"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\VMXNet3: "Drivers"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\VMXNet: "Drivers"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\TrayIcon: "Plugins"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\ThinPrint: "Drivers"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\Hgfs: "VMCI"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\Buslogic: "Drivers"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\BootCamp: "Drivers"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\WYSE: "Drivers"
+HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\PVSCSI: "Drivers"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\ProductName: "VMware Tools"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\PackageCode: "8C42BC2834C628946ABDA476BB59A4D7"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\Language: 0x00000000
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\Version: 0x09020003
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\Transforms: ":1033"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\Assignment: 0x00000001
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\AdvertiseFlags: 0x00000184
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\ProductIcon: "C:\WINDOWS\Installer\{377A2F62-1F87-43A3-B876-03680F8DD895}\ARPPRODUCTICON.exe"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\InstanceType: 0x00000000
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\AuthorizedLUAApp: 0x00000000
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\Clients:  3A 00 00
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\PackageName: "VMware Tools.msi"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\LastUsedSource: "n;1;C:\DOCUME~1\test2\LOCALS~1\Temp\{377A2F62-1F87-43A3-B876-03680F8DD895}~setup\"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\DiskPrompt: "[1]"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\1: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\2: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\3: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\4: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\5: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\6: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\7: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\8: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\9: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\10: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\11: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\12: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\13: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\14: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\15: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\16: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\17: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\18: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\19: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\20: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\21: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\22: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Media\23: "DISK1;1"
+HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\SourceList\Net\1: "C:\DOCUME~1\test2\LOCALS~1\Temp\{377A2F62-1F87-43A3-B876-03680F8DD895}~setup\"
+HKLM\SOFTWARE\Classes\Interface\{8D3967E4-6AAC-11D7-908B-0003476A1D2A}\: "ITPAutoConnect"
+HKLM\SOFTWARE\Classes\Interface\{8D3967E4-6AAC-11D7-908B-0003476A1D2A}\ProxyStubClsid\: "{00020424-0000-0000-C000-000000000046}"
+HKLM\SOFTWARE\Classes\Interface\{8D3967E4-6AAC-11D7-908B-0003476A1D2A}\ProxyStubClsid32\: "{00020424-0000-0000-C000-000000000046}"
+HKLM\SOFTWARE\Classes\Interface\{8D3967E4-6AAC-11D7-908B-0003476A1D2A}\TypeLib\: "{56CA9E11-6AAA-11D7-908B-0003476A1D2A}"
+HKLM\SOFTWARE\Classes\Interface\{8D3967E4-6AAC-11D7-908B-0003476A1D2A}\TypeLib\Version: "1.0"
+HKLM\SOFTWARE\Classes\TypeLib\{56CA9E11-6AAA-11D7-908B-0003476A1D2A}\1.0\: "TPAutoConnect 1.0 Type Library"
+HKLM\SOFTWARE\Classes\TypeLib\{56CA9E11-6AAA-11D7-908B-0003476A1D2A}\1.0\0\win32\: "C:\WINDOWS\system32\TPSvc.dll"
+HKLM\SOFTWARE\Classes\TypeLib\{56CA9E11-6AAA-11D7-908B-0003476A1D2A}\1.0\FLAGS\: "0"
+HKLM\SOFTWARE\Classes\TypeLib\{56CA9E11-6AAA-11D7-908B-0003476A1D2A}\1.0\HELPDIR\: ""
+HKLM\SOFTWARE\Classes\TPAutoConnectLib.TPAutoConnect\: "TPAutoConnect Class"
+HKLM\SOFTWARE\Classes\TPAutoConnectLib.TPAutoConnect\CLSID\: "{8D3967E5-6AAC-11D7-908B-0003476A1D2A}"
+HKLM\SOFTWARE\Classes\TPAutoConnectLib.TPAutoConnect\CurVer\: "TPAutoConnDll.TPAutoConnect.1"
+HKLM\SOFTWARE\Classes\TPAutoConnectLib.TPAutoConnect.1\: "TPAutoConnect Class"
+HKLM\SOFTWARE\Classes\TPAutoConnectLib.TPAutoConnect.1\CLSID\: "{8D3967E5-6AAC-11D7-908B-0003476A1D2A}"
+HKLM\SOFTWARE\Classes\VMwareHostOpen.AssocFile\shell\open\command\: ""C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe" --file "%1""
+HKLM\SOFTWARE\Classes\VMwareHostOpen.AssocURL\shell\open\command\: ""C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe" --url "%1""
+HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\: "Default Host Application"
+HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\LocalizedString: "@C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe,-1008"
+HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\DefaultIcon\: "C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe,-101"
+HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\InstallInfo\IconsVisible: 0x00000000
+HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\InstallInfo\ReinstallCommand: ""C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe" --make-default http"
+HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\InstallInfo\HideIconsCommand: ""C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe" --hide-icons"
+HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\InstallInfo\ShowIconsCommand: ""C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe" --show-icons"
+HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\shell\open\command\: ""C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe" --default http"
+HKLM\SOFTWARE\Microsoft\ESENT\Process\vmtoolsd\DEBUG\Trace Level: ""
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\VMware User Process: ""C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr"
+HKLM\SOFTWARE\ThinPrint\Lang: "ENU"
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\ForceListenToWTS: 0x00000001
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\AllowedProcesses: "Explorer.exe:vmtoolsd.exe"
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\ListenToWTSCreatCmd: "TPAutoConnect.exe -q -i vmware -a COM1 -F 30"
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\NameTranslationEx2:  49 50 52 61 6E 67 65 2C 43 6C 69 65 6E 74 4E 61 6D 65 2C 44 72 69 76 65 72 4E 61 6D 65 2C 50 72 69 6E 74 65 72 4E 61 6D 65 2C 43 6C 61 73 73 4E 61 6D 65 2C 54 79 70 65 57 69 6E 2C 54 79 70 65 4C 69 6E 75 78 2C 54 79 70 65 4A 61 76 61 2C 54 79 70 65 43 45 2C 44 65 73 74 69 6E 61 74 69 6F 6E 2C 41 64 64 4F 6E 53 65 72 76 65 72 2C 54 43 50 49 50 2C 52 44 50 2C 49 43 41 2C 56 4D 00 2A 2C 2A 2C 2A 2C 2A 2C 2A 2C 54 52 55 45 2C 46 41 4C 53 45 2C 46 41 4C 53 45 2C 46 41 4C 53 45 2C 54 50 4F 47 21 54 50 56 4D 3A 2C 46 41 4C 53 45 2C 46 41 4C 53 45 2C 54 52 55 45 2C 46 41 4C 53 45 2C 54 52 55 45 00 2A 2C 2A 2C 2A 2C 2A 2C 2A 2C 46 41 4C 53 45 2C 54 52 55 45 2C 46 41 4C 53 45 2C 54 52 55 45 2C 54 50 50 53 21 54 50 56 4D 3A 2C 46 41 4C 53 45 2C 46 41 4C 53 45 2C 46 41 4C 53 45 2C 46 41 4C 53 45 2C 54 52 55 45 00 00
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\TimeOutClient: 0x000927C0
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\TimeOutClientExecution: 0x000249F0
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\TimeOutVirtualChannelRead: 0x00000082
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\ListenToWTS: 0x00000001
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\ListenToWTSOnDisconnect: 0x00000001
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\ListenToWTSTrys: 0x000001C2
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\ListenToWTSTryDelay: 0x000007D0
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\PrinterProperties: 0x00000001
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\PrinterPropertyFlags: 0x0000FFFF
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\ConnectToClient: "AUTO"
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\Protocol: "AUTO"
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\RightsWin2000: 0x00000003
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\RightsWinNT: 0x00000000
+HKLM\SOFTWARE\ThinPrint\TPAutoConnect\ListenToWTSDeleteCmd: "TPAutoConnect -q -d"
+HKLM\SOFTWARE\ThinPrint\TPVCGateway\IPList:  00
+HKLM\SOFTWARE\ThinPrint\TPVCGateway\VCGPort: 0x00000FA0
+HKLM\SOFTWARE\VMware, Inc.\VMware Drivers\vmci.status: "1|1.9.3.51.0.1|oem2.inf"
+HKLM\SOFTWARE\VMware, Inc.\VMware Drivers\VmciHostDevInst: "ROOT\VMWVMCIHOSTDEV\0000"
+HKLM\SOFTWARE\VMware, Inc.\VMware Drivers\vsockSys.status: "1|1.9.4.21.0.0|"
+HKLM\SOFTWARE\VMware, Inc.\VMware Drivers\vsockDll.status: "1|1.9.3.4.0.0|"
+HKLM\SOFTWARE\VMware, Inc.\VMware Drivers\buslogic.status: "1|1.2.0.3.0.1|oem3.inf"
+HKLM\SOFTWARE\VMware, Inc.\VMware Drivers\vmxnet2.status: "1|1.2.2.0.0.1|oem4.inf"
+HKLM\SOFTWARE\VMware, Inc.\VMware Drivers\vmxnet2morph.status: "1|1.2.2.0.0.1|oem5.inf"
+HKLM\SOFTWARE\VMware, Inc.\VMware Drivers\vmxnet3ndis5.status: "1|1.1.3.9.0.1|oem6.inf"
+HKLM\SOFTWARE\VMware, Inc.\VMware Drivers\vmmouse.status: "1|1.12.5.2.0.1|oem7.inf"
+HKLM\SOFTWARE\VMware, Inc.\VMware Drivers\vmusbmouse.status: "1|1.12.5.2.0.1|oem8.inf"
+HKLM\SOFTWARE\VMware, Inc.\VMware Drivers\svga_xpdm.status: "1|1.11.9.1.0.1|oem9.inf"
+HKLM\SOFTWARE\VMware, Inc.\VMware Tools\InstallPath: "C:\Program Files\VMware\VMware Tools\"
+HKLM\SOFTWARE\VMware, Inc.\VMware Tools\LastBoot: "virtual"
+HKLM\SOFTWARE\VMware, Inc.\VMware Tools\Installer\FORCE_VIDEO: ""
+HKLM\SOFTWARE\VMware, Inc.\NeedReboot\Components: "vmhgfs;ps2MouseInstall;DiskTimeout"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\CoInstallers32:  76 6D 78 5F 6D 6F 64 65 2E 64 6C 6C 2C 20 56 4D 58 5F 4D 6F 64 65 43 68 61 6E 67 65 00 00
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\InfPath: "oem9.inf"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\InfSection: "vmx_svga"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\ProviderName: "VMware, Inc."
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDateData:  00 C0 65 17 07 ED CC 01
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDate: "2-17-2012"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverVersion: "11.9.1.0"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\MatchingDeviceId: "pci\ven_15ad&dev_0405&subsys_040515ad&rev_00"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDesc: "VMware SVGA II"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\InstalledDisplayDrivers:  76 6D 78 5F 66 62 00 00
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\VgaCompatible: 0x00000000
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\Acceleration.Level: 0x00000000
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\DefaultSettings.XResolution: 0x00000280
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\DefaultSettings.YResolution: 0x000001E0
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\DefaultSettings.BitsPerPel: 0x00000020
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\Device Description: "VMware SVGA II"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\MTU: "1500"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\TsoEnable: "1"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\InfSectionExt: ".NT"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\MTU\ParamDesc: "MTU"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\MTU\default: "1500"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\MTU\type: "long"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\MTU\min: "60"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\MTU\max: "9000"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\MTU\step: "1"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\MTU\Base: "10"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\TsoEnable\ParamDesc: "TsoEnable"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\TsoEnable\default: "1"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\TsoEnable\type: "int"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\TsoEnable\min: "0"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\TsoEnable\max: "1"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\TsoEnable\step: "1"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\TsoEnable\Base: "10"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\InfPath: "oem3.inf"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\InfSection: "DDInstall.x86"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\InfSectionExt: ".NT"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\ProviderName: "VMware, Inc."
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\DriverDateData:  00 00 56 81 64 31 CD 01
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\DriverDate: "5-14-2012"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\DriverVersion: "2.0.3.0"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\MatchingDeviceId: "pci\ven_104b&dev_1040"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\DriverDesc: "VMware VMSCSI Controller"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\InfPath: "oem2.inf"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\InfSection: "vmci.install"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\InfSectionExt: ".NT"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\ProviderName: "VMware, Inc."
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\DriverDateData:  00 00 FC EC 3D EC CC 01
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\DriverDate: "2-16-2012"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\DriverVersion: "9.3.51.0"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\MatchingDeviceId: "pci\ven_15ad&dev_0740&subsys_074015ad"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\DriverDesc: "VMware VMCI Bus Device"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\InfPath: "oem2.inf"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\InfSection: "vmci.install"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\InfSectionExt: ".NT"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\ProviderName: "VMware, Inc."
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\DriverDateData:  00 00 FC EC 3D EC CC 01
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\DriverDate: "2-16-2012"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\DriverVersion: "9.3.51.0"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\MatchingDeviceId: "root\vmwvmcihostdev"
+HKLM\SYSTEM\ControlSet001\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\DriverDesc: "VMware VMCI Host Device"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\CoInstallers32:  76 6D 78 5F 6D 6F 64 65 2E 64 6C 6C 2C 20 56 4D 58 5F 4D 6F 64 65 43 68 61 6E 67 65 00 00
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\InfPath: "oem9.inf"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\InfSection: "vmx_svga"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\ProviderName: "VMware, Inc."
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDateData:  00 C0 65 17 07 ED CC 01
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDate: "2-17-2012"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverVersion: "11.9.1.0"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\MatchingDeviceId: "pci\ven_15ad&dev_0405&subsys_040515ad&rev_00"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\DriverDesc: "VMware SVGA II"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\InstalledDisplayDrivers:  76 6D 78 5F 66 62 00 00
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\VgaCompatible: 0x00000000
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\Acceleration.Level: 0x00000000
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\DefaultSettings.XResolution: 0x00000280
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\DefaultSettings.YResolution: 0x000001E0
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\DefaultSettings.BitsPerPel: 0x00000020
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E968-E325-11CE-BFC1-08002BE10318}\0000\Settings\Device Description: "VMware SVGA II"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\MTU: "1500"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\TsoEnable: "1"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\InfSectionExt: ".NT"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\MTU\ParamDesc: "MTU"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\MTU\default: "1500"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\MTU\type: "long"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\MTU\min: "60"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\MTU\max: "9000"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\MTU\step: "1"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\MTU\Base: "10"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\TsoEnable\ParamDesc: "TsoEnable"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\TsoEnable\default: "1"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\TsoEnable\type: "int"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\TsoEnable\min: "0"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\TsoEnable\max: "1"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\TsoEnable\step: "1"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002bE10318}\0001\Ndi\params\TsoEnable\Base: "10"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\InfPath: "oem3.inf"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\InfSection: "DDInstall.x86"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\InfSectionExt: ".NT"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\ProviderName: "VMware, Inc."
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\DriverDateData:  00 00 56 81 64 31 CD 01
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\DriverDate: "5-14-2012"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\DriverVersion: "2.0.3.0"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\MatchingDeviceId: "pci\ven_104b&dev_1040"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97B-E325-11CE-BFC1-08002BE10318}\0000\DriverDesc: "VMware VMSCSI Controller"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\InfPath: "oem2.inf"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\InfSection: "vmci.install"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\InfSectionExt: ".NT"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\ProviderName: "VMware, Inc."
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\DriverDateData:  00 00 FC EC 3D EC CC 01
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\DriverDate: "2-16-2012"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\DriverVersion: "9.3.51.0"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\MatchingDeviceId: "pci\ven_15ad&dev_0740&subsys_074015ad"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0061\DriverDesc: "VMware VMCI Bus Device"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\InfPath: "oem2.inf"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\InfSection: "vmci.install"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\InfSectionExt: ".NT"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\ProviderName: "VMware, Inc."
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\DriverDateData:  00 00 FC EC 3D EC CC 01
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\DriverDate: "2-16-2012"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\DriverVersion: "9.3.51.0"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\MatchingDeviceId: "root\vmwvmcihostdev"
+HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\DriverDesc: "VMware VMCI Host Device"
+ork)#:2,winspool,TPVM:"
+HKU\S-1-5-18\Software\VMware, Inc.\VMware Tools\Hgfs Usability\BackupRefreshPolicy: 0x00000001
+HKU\S-1-5-18\Software\VMware, Inc.\VMware Tools\Hgfs Usability\MRU RootShare\: "\\vmware-host\Shared Folders"
+
+----------------------------------
+Files added: 364
+----------------------------------
+C:\Documents and Settings\All Users\Application Data\VMware\Compatibility\native\wpa.dbl
+C:\Documents and Settings\All Users\Application Data\VMware\Compatibility\virtual\wpa.dbl
+C:\Documents and Settings\All Users\Application Data\VMware\VMware Tools\manifest.txt
+C:\Documents and Settings\All Users\Application Data\VMware\VMware Tools\Unity Filters\adobeflashcs3.txt
+C:\Documents and Settings\All Users\Application Data\VMware\VMware Tools\Unity Filters\adobephotoshopcs3.txt
+C:\Documents and Settings\All Users\Application Data\VMware\VMware Tools\Unity Filters\googledesktop.txt
+C:\Documents and Settings\All Users\Application Data\VMware\VMware Tools\Unity Filters\microsoftoffice2003.txt
+C:\Documents and Settings\All Users\Application Data\VMware\VMware Tools\Unity Filters\vistasidebar.txt
+C:\Documents and Settings\All Users\Application Data\VMware\VMware Tools\Unity Filters\visualstudio2005.txt
+C:\Documents and Settings\All Users\Application Data\VMware\VMware Tools\Unity Filters\vmwarefilters.txt
+C:\Documents and Settings\All Users\Application Data\VMware\VMware Tools\Unity Filters\win7gadgets.txt
+C:\Program Files\Common Files\VMware\Drivers\memctl\vmmemctl.sys
+C:\Program Files\Common Files\VMware\Drivers\mouse\vmmouse.cat
+C:\Program Files\Common Files\VMware\Drivers\mouse\vmmouse.inf
+C:\Program Files\Common Files\VMware\Drivers\mouse\vmmouse.sys
+C:\Program Files\Common Files\VMware\Drivers\mouse\vmmousever.dll
+C:\Program Files\Common Files\VMware\Drivers\mouse\vmusbmouse.cat
+C:\Program Files\Common Files\VMware\Drivers\mouse\vmusbmouse.inf
+C:\Program Files\Common Files\VMware\Drivers\mouse\vmusbmouse.sys
+C:\Program Files\Common Files\VMware\Drivers\mouse\vmusbmousever.dll
+C:\Program Files\Common Files\VMware\Drivers\scsi\txtsetup.oem
+C:\Program Files\Common Files\VMware\Drivers\scsi\vmscsi.cat
+C:\Program Files\Common Files\VMware\Drivers\scsi\vmscsi.inf
+C:\Program Files\Common Files\VMware\Drivers\scsi\vmscsi.sys
+C:\Program Files\Common Files\VMware\Drivers\scsi\vmscsiver.dll
+C:\Program Files\Common Files\VMware\Drivers\video_xpdm\vmwogl32.dll
+C:\Program Files\Common Files\VMware\Drivers\video_xpdm\vmx_fb.dll
+C:\Program Files\Common Files\VMware\Drivers\video_xpdm\vmx_mode.dll
+C:\Program Files\Common Files\VMware\Drivers\video_xpdm\vmx_svga.cat
+C:\Program Files\Common Files\VMware\Drivers\video_xpdm\vmx_svga.inf
+C:\Program Files\Common Files\VMware\Drivers\video_xpdm\vmx_svga.sys
+C:\Program Files\Common Files\VMware\Drivers\video_xpdm\vmx_svgaver.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPOG.bin
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPOG.chm
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPOG.HLP
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrn.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUI.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIchs.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIcht.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIcsy.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIdeu.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIell.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIesn.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIfra.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIhun.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIita.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIjpn.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIkor.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIplk.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIptb.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIrus.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUIsve.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPPrnUItha.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\i386\TPWinprn.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\OEMPRINT.INF
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOG3\tpprint.cat
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOGPS\i386\TPPS.dll
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOGPS\i386\TPPS.ini
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOGPS\i386\TPPS.ppd
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOGPS\OEMPRINT.inf
+C:\Program Files\Common Files\VMware\Drivers\Virtual Printer\TPOGPS\tpps.cat
+C:\Program Files\Common Files\VMware\Drivers\vmci\device\vmci.cat
+C:\Program Files\Common Files\VMware\Drivers\vmci\device\vmci.inf
+C:\Program Files\Common Files\VMware\Drivers\vmci\device\vmci.sys
+C:\Program Files\Common Files\VMware\Drivers\vmci\device\vmciver.dll
+C:\Program Files\Common Files\VMware\Drivers\vmci\device\vsock.sys
+C:\Program Files\Common Files\VMware\Drivers\vmci\sockets\bin\win32\vsocklib.dll
+C:\Program Files\Common Files\VMware\Drivers\vmci\sockets\include\vmci_sockets.h
+C:\Program Files\Common Files\VMware\Drivers\vmxnet\vmware-nic.cat
+C:\Program Files\Common Files\VMware\Drivers\vmxnet\vmware-nic.inf
+C:\Program Files\Common Files\VMware\Drivers\vmxnet\vmware-nicver.dll
+C:\Program Files\Common Files\VMware\Drivers\vmxnet\vmxnet.cat
+C:\Program Files\Common Files\VMware\Drivers\vmxnet\vmxnet.inf
+C:\Program Files\Common Files\VMware\Drivers\vmxnet\vmxnet.sys
+C:\Program Files\Common Files\VMware\Drivers\vmxnet\vmxnetver.dll
+C:\Program Files\Common Files\VMware\Drivers\vmxnet3\vmxnet3n51x64.sys
+C:\Program Files\Common Files\VMware\Drivers\vmxnet3\vmxnet3n51x86.sys
+C:\Program Files\Common Files\VMware\Drivers\vmxnet3\vmxnet3ndis5.cat
+C:\Program Files\Common Files\VMware\Drivers\vmxnet3\vmxnet3ndis5.inf
+C:\Program Files\Common Files\VMware\Drivers\vmxnet3\vmxnet3ndis5ver.dll
+C:\Program Files\VMware\VMware Tools\dbghelp.dll
+C:\Program Files\VMware\VMware Tools\deployPkg.dll
+C:\Program Files\VMware\VMware Tools\Drivers\hgfs\vmhgfs.dll
+C:\Program Files\VMware\VMware Tools\Drivers\hgfs\vmhgfs.sys
+C:\Program Files\VMware\VMware Tools\gio-2.0.dll
+C:\Program Files\VMware\VMware Tools\glib-2.0.dll
+C:\Program Files\VMware\VMware Tools\glibmm-2.4.dll
+C:\Program Files\VMware\VMware Tools\gmodule-2.0.dll
+C:\Program Files\VMware\VMware Tools\gobject-2.0.dll
+C:\Program Files\VMware\VMware Tools\gthread-2.0.dll
+C:\Program Files\VMware\VMware Tools\hgfs.dll
+C:\Program Files\VMware\VMware Tools\iconv.dll
+C:\Program Files\VMware\VMware Tools\icudt44l.dat
+C:\Program Files\VMware\VMware Tools\intl.dll
+C:\Program Files\VMware\VMware Tools\messages\de\desktopEvents.vmsg
+C:\Program Files\VMware\VMware Tools\messages\de\hgfsUsability.vmsg
+C:\Program Files\VMware\VMware Tools\messages\de\toolboxcmd.vmsg
+C:\Program Files\VMware\VMware Tools\messages\de\vmtoolsd.vmsg
+C:\Program Files\VMware\VMware Tools\messages\es\hgfsUsability.vmsg
+C:\Program Files\VMware\VMware Tools\messages\fr\hgfsUsability.vmsg
+C:\Program Files\VMware\VMware Tools\messages\fr\toolboxcmd.vmsg
+C:\Program Files\VMware\VMware Tools\messages\fr\vmtoolsd.vmsg
+C:\Program Files\VMware\VMware Tools\messages\it\hgfsUsability.vmsg
+C:\Program Files\VMware\VMware Tools\messages\ja\desktopEvents.vmsg
+C:\Program Files\VMware\VMware Tools\messages\ja\hgfsUsability.vmsg
+C:\Program Files\VMware\VMware Tools\messages\ja\toolboxcmd.vmsg
+C:\Program Files\VMware\VMware Tools\messages\ja\vmtoolsd.vmsg
+C:\Program Files\VMware\VMware Tools\messages\ko\desktopEvents.vmsg
+C:\Program Files\VMware\VMware Tools\messages\ko\hgfsUsability.vmsg
+C:\Program Files\VMware\VMware Tools\messages\ko\toolboxcmd.vmsg
+C:\Program Files\VMware\VMware Tools\messages\ko\vmtoolsd.vmsg
+C:\Program Files\VMware\VMware Tools\messages\zh_CN\hgfsUsability.vmsg
+C:\Program Files\VMware\VMware Tools\messages\zh_CN\toolboxcmd.vmsg
+C:\Program Files\VMware\VMware Tools\messages\zh_CN\vmtoolsd.vmsg
+C:\Program Files\VMware\VMware Tools\open_source_licenses.txt
+C:\Program Files\VMware\VMware Tools\plugins\common\hgfsServer.dll
+C:\Program Files\VMware\VMware Tools\plugins\common\hgfsUsability.dll
+C:\Program Files\VMware\VMware Tools\plugins\common\thinprint.dll
+C:\Program Files\VMware\VMware Tools\plugins\common\vix.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmsvc\autoLogon.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmsvc\autoUpgrade.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmsvc\bitMapper.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmsvc\deployPkgPlugin.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmsvc\disableGuestHibernate.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmsvc\diskWiper.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmsvc\guestInfo.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmsvc\hwUpgradeHelper.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmsvc\powerOps.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmsvc\resolutionSet.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmsvc\timeSync.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmsvc\vmbackup.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmusr\desktopEvents.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmusr\dndcp.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmusr\unity.dll
+C:\Program Files\VMware\VMware Tools\plugins\vmusr\vmtray.dll
+C:\Program Files\VMware\VMware Tools\poweroff-vm-default.bat
+C:\Program Files\VMware\VMware Tools\poweron-vm-default.bat
+C:\Program Files\VMware\VMware Tools\resume-vm-default.bat
+C:\Program Files\VMware\VMware Tools\rpctool.exe
+C:\Program Files\VMware\VMware Tools\sigc-2.0.dll
+C:\Program Files\VMware\VMware Tools\suspend-vm-default.bat
+C:\Program Files\VMware\VMware Tools\TPAutoConnect.exe
+C:\Program Files\VMware\VMware Tools\TPAutoConnSvc.exe
+C:\Program Files\VMware\VMware Tools\TPVCGateway.exe
+C:\Program Files\VMware\VMware Tools\TPVCGatewaydeu.dll
+C:\Program Files\VMware\VMware Tools\vm-support.vbs
+C:\Program Files\VMware\VMware Tools\vmacthlp.exe
+C:\Program Files\VMware\VMware Tools\vmacthlp.txt
+C:\Program Files\VMware\VMware Tools\vmtools.dll
+C:\Program Files\VMware\VMware Tools\vmtoolsd.exe
+C:\Program Files\VMware\VMware Tools\VMToolsHook.dll
+C:\Program Files\VMware\VMware Tools\VmUpgradeHelper.bat
+C:\Program Files\VMware\VMware Tools\VMwareHgfsClient.exe
+C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe
+C:\Program Files\VMware\VMware Tools\VMwareResolutionSet.exe
+C:\Program Files\VMware\VMware Tools\VMwareToolboxCmd.exe
+C:\Program Files\VMware\VMware Tools\VMwareXferlogs.exe
+C:\Program Files\VMware\VMware Tools\win32\vmGuestLib.dll
+C:\Program Files\VMware\VMware Tools\win32\vmGuestLibJava.dll
+C:\Program Files\VMware\VMware Tools\zip.exe
+C:\WINDOWS\system32\config\ThinPrin.evt
+C:\WINDOWS\system32\drivers\vmci.sys
+C:\WINDOWS\system32\drivers\vmhgfs.sys
+C:\WINDOWS\system32\drivers\vmmouse.sys
+C:\WINDOWS\system32\drivers\vmscsi.sys
+C:\WINDOWS\system32\drivers\vmusbmouse.sys
+C:\WINDOWS\system32\drivers\vmxnet.sys
+C:\WINDOWS\system32\drivers\vmx_svga.sys
+C:\WINDOWS\system32\drivers\vsock.sys
+C:\WINDOWS\system32\spool\drivers\w32x86\3\PS5UI.DLL
+C:\WINDOWS\system32\spool\drivers\w32x86\3\PSCRIPT.HLP
+C:\WINDOWS\system32\spool\drivers\w32x86\3\PSCRIPT.NTF
+C:\WINDOWS\system32\spool\drivers\w32x86\3\PSCRIPT5.DLL
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPOG.bin
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPOG.chm
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPRN.DLL
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUI.DLL
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIchs.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIcht.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIcsy.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIdeu.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIell.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIesn.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIfra.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIhun.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIita.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIjpn.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIkor.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIplk.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIptb.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIrus.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUIsve.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPrnUItha.dll
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPS.DLL
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPS.INI
+C:\WINDOWS\system32\spool\drivers\w32x86\3\TPPS.PPD
+C:\WINDOWS\system32\spool\prtprocs\w32x86\TPWinPrn.dll
+C:\WINDOWS\system32\tprdpw32.dll
+C:\WINDOWS\system32\TPSvc.dll
+C:\WINDOWS\system32\TPVMMon.dll
+C:\WINDOWS\system32\TPVMMondeu.dll
+C:\WINDOWS\system32\TPVMMonjpn.dll
+C:\WINDOWS\system32\TPVMMonUI.dll
+C:\WINDOWS\system32\TPVMMonUIdeu.dll
+C:\WINDOWS\system32\TPVMMonUIjpn.dll
+C:\WINDOWS\system32\TPVMW32.dll
+C:\WINDOWS\system32\vmGuestLib.dll
+C:\WINDOWS\system32\vmGuestLibJava.dll
+C:\WINDOWS\system32\vmhgfs.dll
+C:\WINDOWS\system32\VMUpgradeAtShutdownWXP.dll
+C:\WINDOWS\system32\vmwogl32.dll
+C:\WINDOWS\system32\vmx_fb.dll
+C:\WINDOWS\system32\vmx_mode.dll
+C:\WINDOWS\system32\vsocklib.dll
+
