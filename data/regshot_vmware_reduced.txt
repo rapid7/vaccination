@@ -97,7 +97,7 @@ HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\LocalizedString: "@C:
 HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\DefaultIcon\: "C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe,-101"
 HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\InstallInfo\IconsVisible: 0x00000000
 HKLM\SOFTWARE\Microsoft\ESENT\Process\vmtoolsd\DEBUG\Trace Level: ""
-HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\VMware User Process: "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\VMware User Process: "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe"
 HKLM\SOFTWARE\ThinPrint\Lang: "ENU"
 HKLM\SOFTWARE\ThinPrint\TPAutoConnect\ForceListenToWTS: 0x00000001
 HKLM\SOFTWARE\ThinPrint\TPAutoConnect\AllowedProcesses: "Explorer.exe:vmtoolsd.exe"
