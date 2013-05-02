@@ -98,6 +98,7 @@ def env_replace(line):
         return "system_path({0})".format(addquotes(line.replace("C:\\WINDOWS", "")))
     if "C:\\Program Files" in line:
         return "progfiles_path({0})".format(addquotes(line.replace("C:\\Program Files", "")))
+        
     return addquotes(line)
 
 def get_sections(regshot):
@@ -145,7 +146,11 @@ def generate_files_code(data):
 
 def generate_registry_code(data):
     for line in makelines(data):
-        path, value = line.split(": ", 1)
+        try:
+            path, value = line.split(": ", 1)
+        except:
+            print >>sys.stderr, "ERRONEUS LINE", line
+            raise
 
         key = KEYMAP[path.split("\\", 1)[0]]
         subkey = r"\\".join( path.split("\\")[1:-1] )
@@ -172,18 +177,23 @@ def registry_transform_value(v):
 
         if decoded.count("\0") >= len(decoded) / 2:
             # unicode string, given as hexdump from regshot
-            asciistr = decoded.decode("utf16")
-            if not only_printable(asciistr): raise Ignore()
+            try:
+                asciistr = decoded.decode("utf16")
+            except:
+                pass
+            else:
+                if not only_printable(asciistr): raise Ignore()
 
-            asciistr = env_replace(asciistr)
-            asciistr = asciistr.replace("\\", "\\\\")
+                asciistr = env_replace(asciistr)
+                asciistr = asciistr.replace("\\", "\\\\")
 
-            return asciistr, len(asciistr)+1, "REG_SZ"
+                return asciistr, len(asciistr)+1, "REG_SZ"
 
         bytenotation = r'"\x' + r"\x".join(i.encode('hex') for i in decoded) + '"'
         return bytenotation, len(decoded), "REG_BINARY"
 
-    print "DBG", repr(v)
+    print >>sys.stderr, "DBG", repr(v)
+
     raise Exception("unknown value format")
 
 def main():

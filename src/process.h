@@ -1,3 +1,6 @@
+#ifndef PROCESSH
+#define PROCESSH
+
 #include <windows.h>
 #include <tlhelp32.h>
 
@@ -35,3 +38,5 @@ BOOL StartProcess(char * path)
     return CreateProcess(path, szCmdline, NULL, NULL, FALSE, 
         NORMAL_PRIORITY_CLASS, NULL, NULL, &startupInfo, &processInformation);
 }
+
+#endif

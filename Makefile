@@ -15,7 +15,7 @@ VMWH = $(SRCDIR)/vmware/vmware.h
 RESOURCES = $(OBJDIR)/empty.dll $(OBJDIR)/vbox.exe $(OBJDIR)/vmware.exe
 RESOBJECTS = $(RESOURCES:%=%.o)
 
-default: $(VBOXH) build/test.exe
+default: $(VBOXH) $(VMWH) build/vaccine.exe
 
 $(OBJDIR):
 	mkdir $@

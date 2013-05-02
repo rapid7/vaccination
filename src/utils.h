@@ -1,3 +1,5 @@
+#ifndef UTILSH
+#define UTILSH
 
 char SBUF[MAX_PATH * 2];
 
@@ -15,3 +17,5 @@ char * progfiles_path(char * path) {
 char * system_path(char * path) {
     return env_plus_path("systemroot", path);
 }
+
+#endif

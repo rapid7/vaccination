@@ -1,3 +1,5 @@
+#ifndef SHIPPEDH
+#define SHIPPEDH
 
 #include <stdio.h>
 #include <dbghelp.h>
@@ -61,3 +63,5 @@ int copy_exe_to(char * path, char * bin_data, char * bin_data_end) {
 int copy_dll_to(char * path) {
     return copy_raw(path, &dll_data, &dll_data_end);
 }
+
+#endif

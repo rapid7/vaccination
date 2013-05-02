@@ -1,3 +1,5 @@
+#ifndef REGISTRYH
+#define REGISTRYH
 
 char * process_registry_next(char * keyp, char * endp) {
    char * valuep = strstr(keyp, ": ");
@@ -41,3 +43,4 @@ int registry_add(HKEY hkey, char * key, char * vname, void * value, int vlen, in
     return lRes;
 }
 
+#endif

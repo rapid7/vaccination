@@ -10,7 +10,6 @@ Values added: 2555
 HKLM\SOFTWARE\Classes\AppID\{2c6594dd-04ad-490f-a447-dc8e2772e9cb}\: "TPVCGateway WMI Provider"
 HKLM\SOFTWARE\Classes\AppID\{2c6594dd-04ad-490f-a447-dc8e2772e9cb}\LocalService: "TPVCGateway"
 HKLM\SOFTWARE\Classes\AppID\{2c6594dd-04ad-490f-a447-dc8e2772e9cb}\ServiceParameters: "-install"
-HKLM\SOFTWARE\Classes\Applications\VMwareHostOpen.exe\shell\open\command\: ""C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe" --file "%1""
 HKLM\SOFTWARE\Classes\CLSID\{2C6594DB-04AD-490F-A447-DC8E2772E9CB}\: ""
 HKLM\SOFTWARE\Classes\CLSID\{2C6594DB-04AD-490F-A447-DC8E2772E9CB}\InprocServer32\: "C:\WINDOWS\system32\TPSvc.dll"
 HKLM\SOFTWARE\Classes\CLSID\{2C6594DB-04AD-490F-A447-DC8E2772E9CB}\InprocServer32\ThreadingModel: "Apartment"
@@ -41,8 +40,6 @@ HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\ThinPr
 HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\Hgfs: "VMCI"
 HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\Buslogic: "Drivers"
 HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\BootCamp: "Drivers"
-HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\WYSE: "Drivers"
-HKLM\SOFTWARE\Classes\Installer\Features\26F2A77378F13A348B673086F0D88D59\PVSCSI: "Drivers"
 HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\ProductName: "VMware Tools"
 HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\PackageCode: "8C42BC2834C628946ABDA476BB59A4D7"
 HKLM\SOFTWARE\Classes\Installer\Products\26F2A77378F13A348B673086F0D88D59\Language: 0x00000000
@@ -95,18 +92,12 @@ HKLM\SOFTWARE\Classes\TPAutoConnectLib.TPAutoConnect\CLSID\: "{8D3967E5-6AAC-11D
 HKLM\SOFTWARE\Classes\TPAutoConnectLib.TPAutoConnect\CurVer\: "TPAutoConnDll.TPAutoConnect.1"
 HKLM\SOFTWARE\Classes\TPAutoConnectLib.TPAutoConnect.1\: "TPAutoConnect Class"
 HKLM\SOFTWARE\Classes\TPAutoConnectLib.TPAutoConnect.1\CLSID\: "{8D3967E5-6AAC-11D7-908B-0003476A1D2A}"
-HKLM\SOFTWARE\Classes\VMwareHostOpen.AssocFile\shell\open\command\: ""C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe" --file "%1""
-HKLM\SOFTWARE\Classes\VMwareHostOpen.AssocURL\shell\open\command\: ""C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe" --url "%1""
 HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\: "Default Host Application"
 HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\LocalizedString: "@C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe,-1008"
 HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\DefaultIcon\: "C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe,-101"
 HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\InstallInfo\IconsVisible: 0x00000000
-HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\InstallInfo\ReinstallCommand: ""C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe" --make-default http"
-HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\InstallInfo\HideIconsCommand: ""C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe" --hide-icons"
-HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\InstallInfo\ShowIconsCommand: ""C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe" --show-icons"
-HKLM\SOFTWARE\Clients\StartMenuInternet\VMWAREHOSTOPEN.EXE\shell\open\command\: ""C:\Program Files\VMware\VMware Tools\VMwareHostOpen.exe" --default http"
 HKLM\SOFTWARE\Microsoft\ESENT\Process\vmtoolsd\DEBUG\Trace Level: ""
-HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\VMware User Process: ""C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr"
+HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\VMware User Process: "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr
 HKLM\SOFTWARE\ThinPrint\Lang: "ENU"
 HKLM\SOFTWARE\ThinPrint\TPAutoConnect\ForceListenToWTS: 0x00000001
 HKLM\SOFTWARE\ThinPrint\TPAutoConnect\AllowedProcesses: "Explorer.exe:vmtoolsd.exe"
@@ -126,7 +117,6 @@ HKLM\SOFTWARE\ThinPrint\TPAutoConnect\Protocol: "AUTO"
 HKLM\SOFTWARE\ThinPrint\TPAutoConnect\RightsWin2000: 0x00000003
 HKLM\SOFTWARE\ThinPrint\TPAutoConnect\RightsWinNT: 0x00000000
 HKLM\SOFTWARE\ThinPrint\TPAutoConnect\ListenToWTSDeleteCmd: "TPAutoConnect -q -d"
-HKLM\SOFTWARE\ThinPrint\TPVCGateway\IPList:  00
 HKLM\SOFTWARE\ThinPrint\TPVCGateway\VCGPort: 0x00000FA0
 HKLM\SOFTWARE\VMware, Inc.\VMware Drivers\vmci.status: "1|1.9.3.51.0.1|oem2.inf"
 HKLM\SOFTWARE\VMware, Inc.\VMware Drivers\VmciHostDevInst: "ROOT\VMWVMCIHOSTDEV\0000"
@@ -263,9 +253,6 @@ HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE1031
 HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\DriverVersion: "9.3.51.0"
 HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\MatchingDeviceId: "root\vmwvmcihostdev"
 HKLM\SYSTEM\CurrentControlSet\Control\Class\{4D36E97D-E325-11CE-BFC1-08002BE10318}\0062\DriverDesc: "VMware VMCI Host Device"
-ork)#:2,winspool,TPVM:"
-HKU\S-1-5-18\Software\VMware, Inc.\VMware Tools\Hgfs Usability\BackupRefreshPolicy: 0x00000001
-HKU\S-1-5-18\Software\VMware, Inc.\VMware Tools\Hgfs Usability\MRU RootShare\: "\\vmware-host\Shared Folders"
 
 ----------------------------------
 Files added: 364
