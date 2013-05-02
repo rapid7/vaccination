@@ -1,0 +1,6 @@
+vmtoolsd.exe (2 times)
+vmacthlp.exe
+
+thinprint shit
+TPAutoConnect.exe
+TPAutoConnSvc.exe
