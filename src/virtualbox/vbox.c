@@ -4,8 +4,8 @@
 #include "../process.h"
 #include "../utils.h"
 
-int main(int argc, char **argv) {
-
+int WINAPI WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,int nShowCmd)
+{
     BOOL ret = IsProcessRunning(L"VBoxTray.exe");
     if (!ret) {
         char * fullpath = progfiles_path("\\Oracle\\VirtualBox Guest Additions\\VBoxTray.exe");

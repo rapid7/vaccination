@@ -27,10 +27,10 @@ $(VMWH): utils/shot2code.py data/regshot_vmware_reduced.txt
 	python utils/shot2code.py vmware data/regshot_vmware_reduced.txt > $@
 
 $(OBJDIR)/vbox.exe: $(SRCDIR)/virtualbox/vbox.c
-	$(CC) $(CFLAGS) $(DIRS) -o $@ $^ $(LIBS)
+	$(CC) $(CFLAGS) $(DIRS) -mwindows -o $@ $^ $(LIBS)
 
 $(OBJDIR)/vmware.exe: $(SRCDIR)/vmware/exe.c
-	$(CC) $(CFLAGS) $(DIRS) -o $@ $^ $(LIBS)
+	$(CC) $(CFLAGS) $(DIRS) -mwindows -o $@ $^ $(LIBS)
 
 $(OBJDIR)/empty.dll: $(SRCDIR)/empty.c
 	$(CC) $(CFLAGS) $(DIRS) $(DLL) -o $@ $^ $(LIBS)
