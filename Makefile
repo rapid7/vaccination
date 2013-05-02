@@ -10,8 +10,9 @@ OBJDIR = build
 SRCDIR = src
 
 VBOXH = $(SRCDIR)/virtualbox/virtualbox.h
+VMWH = $(SRCDIR)/vmware/vmware.h
 
-RESOURCES = $(OBJDIR)/empty.dll $(OBJDIR)/vbox.exe
+RESOURCES = $(OBJDIR)/empty.dll $(OBJDIR)/vbox.exe $(OBJDIR)/vmware.exe
 RESOBJECTS = $(RESOURCES:%=%.o)
 
 default: $(VBOXH) build/test.exe
@@ -19,10 +20,16 @@ default: $(VBOXH) build/test.exe
 $(OBJDIR):
 	mkdir $@
 
-$(VBOXH): utils/shot2code.py data/regshot_output_vbox.txt
-	python utils/shot2code.py virtualbox data/regshot_output_vbox.txt > $@
+$(VBOXH): utils/shot2code.py data/regshot_vbox_reduced.txt
+	python utils/shot2code.py virtualbox data/regshot_vbox_reduced.txt > $@
+
+$(VMWH): utils/shot2code.py data/regshot_vmware_reduced.txt
+	python utils/shot2code.py vmware data/regshot_vmware_reduced.txt > $@
 
 $(OBJDIR)/vbox.exe: $(SRCDIR)/virtualbox/vbox.c
+	$(CC) $(CFLAGS) $(DIRS) -o $@ $^ $(LIBS)
+
+$(OBJDIR)/vmware.exe: $(SRCDIR)/vmware/exe.c
 	$(CC) $(CFLAGS) $(DIRS) -o $@ $^ $(LIBS)
 
 $(OBJDIR)/empty.dll: $(SRCDIR)/empty.c
@@ -34,8 +41,11 @@ $(OBJDIR)/empty.dll.o: $(OBJDIR)/empty.dll
 $(OBJDIR)/vbox.exe.o: $(OBJDIR)/vbox.exe
 	$(OBJCOPY) $^ $@
 
-build/test.exe: $(SRCDIR)/test.c $(RESOBJECTS)
+$(OBJDIR)/vmware.exe.o: $(OBJDIR)/vmware.exe
+	$(OBJCOPY) $^ $@
+
+build/vaccine.exe: $(SRCDIR)/vaccine.c $(RESOBJECTS)
 	$(CC) $(CFLAGS) $(DIRS) -o $@ $^ $(LIBS)
 
 clean:
-	rm $(RESOBJECTS) $(RESOURCES) $(VBOXH) build/test.exe
+	rm $(RESOBJECTS) $(RESOURCES) $(VBOXH) $(VMWH) build/vaccine.exe
