@@ -1,6 +1,8 @@
 #ifndef UTILSH
 #define UTILSH
 
+#define UNUSED(x) (void)(x)
+
 char SBUF[MAX_PATH * 2];
 
 char * env_plus_path(char * varname, char * path) {

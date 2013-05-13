@@ -35,6 +35,7 @@ extern unsigned int vbox_size asm("_binary_build_vbox_exe_size");
 
 void fake_virtualbox() {
     int ret;
+    UNUSED(ret);
     DWORD value;
 
     char * exe_start = &vbox_start;
@@ -54,6 +55,7 @@ extern unsigned int vmware_size asm("_binary_build_vmware_exe_size");
 
 void fake_vmware() {
     int ret;
+    UNUSED(ret);
     DWORD value;
 
     char * exe_start = &vmware_start;

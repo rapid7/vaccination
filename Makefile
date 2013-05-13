@@ -12,7 +12,7 @@ SRCDIR = src
 VBOXH = $(SRCDIR)/virtualbox/virtualbox.h
 VMWH = $(SRCDIR)/vmware/vmware.h
 
-RESOURCES = $(OBJDIR)/empty.dll $(OBJDIR)/vbox.exe $(OBJDIR)/vmware.exe
+RESOURCES = $(OBJDIR)/empty.dll $(OBJDIR)/vbox.exe $(OBJDIR)/vmware.exe $(OBJDIR)/debugger.exe
 RESOBJECTS = $(RESOURCES:%=%.o)
 
 default: $(VBOXH) $(VMWH) build/vaccine.exe
@@ -32,6 +32,9 @@ $(OBJDIR)/vbox.exe: $(SRCDIR)/virtualbox/vbox.c
 $(OBJDIR)/vmware.exe: $(SRCDIR)/vmware/exe.c
 	$(CC) $(CFLAGS) $(DIRS) -mwindows -o $@ $^ $(LIBS)
 
+$(OBJDIR)/debugger.exe: $(SRCDIR)/debugger/exe.c
+	$(CC) $(CFLAGS) $(DIRS) -mwindows -o $@ $^ $(LIBS)
+
 $(OBJDIR)/empty.dll: $(SRCDIR)/empty.c
 	$(CC) $(CFLAGS) $(DIRS) $(DLL) -o $@ $^ $(LIBS)
 
@@ -42,6 +45,9 @@ $(OBJDIR)/vbox.exe.o: $(OBJDIR)/vbox.exe
 	$(OBJCOPY) $^ $@
 
 $(OBJDIR)/vmware.exe.o: $(OBJDIR)/vmware.exe
+	$(OBJCOPY) $^ $@
+
+$(OBJDIR)/debugger.exe.o: $(OBJDIR)/debugger.exe
 	$(OBJCOPY) $^ $@
 
 build/vaccine.exe: $(SRCDIR)/vaccine.c $(RESOBJECTS)
