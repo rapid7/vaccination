@@ -12,8 +12,6 @@ int WINAPI WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,i
         ret = StartProcess(fullpath);
     }
 
-    while (1) {
-        Sleep(INFINITE);
-    }
+    Sleep(INFINITE);
     return 0;
 }
