@@ -18,7 +18,7 @@ int WINAPI WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine,i
     }
 
     while (1) {
-        Sleep(60000);
+        Sleep(INFINITE);
     }
     return 0;
 }
