@@ -4,16 +4,17 @@
 char * process_registry_next(char * keyp, char * endp) {
    char * valuep = strstr(keyp, ": ");
    char * eolp = strstr(keyp, "\n");
-   char buf[200];
+   int maxbuflen = max(eolp-valuep, valuep-keyp);
+   char buf[maxbuflen];
 
    if (valuep == NULL) return eolp+1;
    if (eolp == NULL) eolp = endp;
 
-   memset(buf, 0, 200);
+   memset(buf, 0, maxbuflen);
    snprintf(buf, valuep-keyp, "%s", keyp);
    printf("key: %s\n", buf);
 
-   memset(buf, 0, 200);
+   memset(buf, 0, maxbuflen);
    snprintf(buf, eolp-valuep, "%s", valuep);
    printf("value: %s\n", buf);
 
